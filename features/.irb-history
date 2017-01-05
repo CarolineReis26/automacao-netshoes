@@ -1,0 +1,11 @@
+start_test_server_in_background
+query("*):id
+query("*"):id
+query("*")
+query"*"
+query "*"
+exit
+query "*", :id
+start_test_server_in_background
+exitp
+exit

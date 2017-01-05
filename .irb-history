@@ -1,0 +1,26 @@
+start_test_server_in_background
+android.widget.Button
+query "android.widget.Button"
+query "*"
+query "button"
+query "android.widget.Button"
+query "linearLayout editText"
+query "all button"
+query "linearLayout editText"
+query prop:val
+prop:val
+query "button marked: 'Login'"
+query "button index:0"
+query "button isEnabled:true'"
+query "label {text BEGINSWITH 'CELL 1'}"
+query ("webView css:'#header'")
+query ("webView css:'#header'")
+query "label {text BEGINSWITH 'CELL 1'}"
+query("all view marked:'something'")
+query "tabBarButton", :accessibilityLabel
+=> ["First", "Second", "Third", "Fourth"]
+query "label index: 0"
+query "button isEnabled: 1"
+query "button isEnabled: 1"
+query ("all button")
+exit
