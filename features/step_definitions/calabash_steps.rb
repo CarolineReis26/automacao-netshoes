@@ -53,33 +53,6 @@ Entao(/^confirmar a exclusão do produto$/) do
 
 end
 
-Quando(/^e tocar na lista de filtro$/) do
-
-end
-
-Quando(/^escolher o tipo de filtro$/) do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Quando(/^tocar no filtro escolhido$/) do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Entao(/^verificar o carregamento do filtro selecionado$/) do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Quando(/^e tocar na lista de ordenar$/) do
-
-end
-
-Quando(/^realizar uma escolha$/) do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Entao(/^verificar o carregamento da ordem selecionada$/) do
-  pending # Write code here that turns the phrase above into concrete actions
-end
 Quando(/^tocar na lista$/) do
   touch("* contentDescription:'drawer_open'")
 end

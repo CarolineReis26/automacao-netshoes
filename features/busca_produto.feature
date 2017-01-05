@@ -3,7 +3,7 @@
 Funcionalidade:  BuscaProduto
 
 
-
+   @buscaproduto
   Cenário: Posso realizar busca de  produto
   Dado que estou na home
   Quando tocar para realizar pesquisa
@@ -22,20 +22,8 @@ Funcionalidade:  BuscaProduto
   E tocar para remover produto
   Entao confirmar a exclusão do produto
 
-  @dev
-  Cenário: Posso realizar busca de produtos por Filtro
-  Quando e tocar na lista de filtro
-  E escolher o tipo de filtro
-  E tocar no filtro escolhido
-  Entao verificar o carregamento do filtro selecionado
-
-  @dev
-  Cenário: Posso realizar busca de produtos  Ordenado
-  Quando e tocar na lista de ordenar
-  E realizar uma escolha
-  Entao verificar o carregamento da ordem selecionada
-
  @promocoes
+ @clear_app_data
  Cenário: Posso realizar busca por promocoes
  Dado que estou na home
  Quando tocar na lista
