@@ -1,0 +1,50 @@
+*.gema
+* .rbc
+/config
+/cobertura/
+/ InstalledFiles
+/ Pkg /
+/ Spec / reports /
+/spec/examples.txt
+/ Test / tmp /
+/ Test / version_tmp /
+/ Tmp /
+
+# Usado pela biblioteca dotenv para carregar variáveis ​​de ambiente.
+# .env
+
+## Específico para RubyMotion:
+.dat *
+.repl_history
+construir/
+* .bridgesupport
+Construir-iPhoneOS /
+Build-iPhoneSimulator /
+
+## Específico para RubyMotion (uso de CocoaPods):
+#
+# Recomendamos que não adicione o diretório Pods ao seu .gitignore. No entanto,
+# Você deve julgar por si mesmo, os prós e contras são mencionados em:
+# Https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-in-source-control
+#
+# Vendor / Pods /
+
+## Cache de documentação e arquivos gerados:
+/.yardoc/
+/ _yardoc /
+/ Doc /
+/ Rdoc /
+
+## Normalização do ambiente:
+/.pacote/
+/ Vendor / bundle
+/ Lib / bundler / man /
+
+# Para uma biblioteca ou gem, você pode querer ignorar esses arquivos, pois o código é
+# Destinado a ser executado em vários ambientes; Caso contrário, verifique-os:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
+
+# A menos que suporte rvm <1.11.0 ou fazer algo extravagante, ignore isso:
+.rvmrc
